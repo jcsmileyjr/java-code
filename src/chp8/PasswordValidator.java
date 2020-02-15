@@ -3,6 +3,15 @@ package chp8;
 import java.awt.*;
 import java.util.Scanner;
 
+/*
+Valdate a proposed password with these rules:
+- at least 8 charcters long
+- contain an uppercase letter
+- contain a special character
+- does not contain the user name
+- is not the same as the old password
+ */
+
 public class PasswordValidator {
     public static void main(String[] args) {
         String userName = "JCSmiley";
